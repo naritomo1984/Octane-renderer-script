@@ -20,16 +20,16 @@ for i = startFrame, lastFrame do
         renderTargetNode=rtNodes[1]
     }
     
-    filePath = string.format("C:/Tomo/Octane/Baked/Atlas-F%05d.png", i)
+    filePath = string.format("C:/Usr/Octane/Baked/Atlas-F%05d.png", i)
     octane.render.saveImage(filePath, octane.imageSaveType.PNG8)
     
-    tex_file_path = string.format("C:/Tomo/Octane/Atlas-F%05d.png", meshfileNum)
+    tex_file_path = string.format("C:/Usr/Octane/Atlas-F%05d.png", meshfileNum)
     teximg[1]:setAttribute(octane.A_FILENAME, tex_file_path)
 
-    mesh_file_path = string.format("C:/Tomo/Octane/Mesh-F%05d.obj", meshfileNum)
+    mesh_file_path = string.format("C:/Usr/Octane/Mesh-F%05d.obj", meshfileNum)
     MeshNodes[1]:setAttribute(octane.A_FILENAME, mesh_file_path)
 
-    env_file_path = string.format("C://Tomo/Octane/img.%05d.exr", meshfileNum)
+    env_file_path = string.format("C://Usr/Octane/img.%05d.exr", meshfileNum)
     envimg[1]:setAttribute(octane.A_FILENAME, env_file_path)
 
     print (framename)
