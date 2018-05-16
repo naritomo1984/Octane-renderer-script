@@ -1,9 +1,9 @@
-# Octane-render-script
+# Octane-bake-texture-render-script
 The script for Octane render.  
 Octane render 3.04 or above.  
 
 
-This script creates rendering node automatically and will render specified number of the object sequence files.   
+This script creates baking rendering node automatically and will render specified number of the object sequence files.   
 The rendering setting will use the environment texture(.exr) as a light source, if you'd like to use other rendering   
 settings, you will need to modify the settings after the script created the node network.  
 
