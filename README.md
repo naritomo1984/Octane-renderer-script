@@ -12,8 +12,8 @@ Make the rendering nodes.
 1. Open the script window and locate the script "createNode.lua"  
 2. Change the each path(images, obj files)  
 3. Run the script.  
-![nodeSample](/nodeSample.png)
-
+![nodeSample](/nodeSample.PNG)  
+  
 Rendering  
 1. Open the script window and locate the script "rendering.lua"  
 
