@@ -15,7 +15,9 @@ Make the rendering nodes.
 ![nodeSample](/nodeSample.PNG)  
   
 Rendering  
-1. Open the script window and locate the script "rendering.lua"  
+1. Open the script window and locate the script "rendering.lua"
+2. Change the each path(images, obj files, frame number)
+3. Run the script.
 
 
 
